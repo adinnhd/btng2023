@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(asset/bg.jpg);
+  background-size: cover;
+}
+
+.formbio {
+  border: 1px solid rgb(255, 255, 255);
+  width: 300px;
+  padding: 10px;
+  border-radius: 15px;
+  font-family: calibri;
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+  margin: 200px auto;
+}
+
+.formbio button {
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 7px;
+  transition: 0.5s;
+}
+
+.formbio button a {
+  text-decoration: none;
+}
+
+.formbio button:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 0, 0);
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 7px;
+}
+
+.formbio .submit {
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 7px;
+  transition: 0.5s;
+}
+
+.formbio .submit:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 0, 0);
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 7px;
+}
+
+.formbio .reset {
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 7px;
+  transition: 0.5s;
+}
+
+.formbio .reset:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 0, 0);
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 7px;
+}
